@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pytesseract
+opencv-python-headless
+pillow
+python-multipart
+pdf2image
+python-docx
+pandas
+openpyxl
+pypdf2
+aiofiles
+jsonschema

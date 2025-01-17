@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  invoice_extractor:
+    build: .
+    container_name: invoice_extractor
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./uploads:/app/uploads
+    restart: unless-stopped
+
